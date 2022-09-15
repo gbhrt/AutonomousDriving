@@ -1,0 +1,220 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabriel/software/AutonomousDriving/build/applanix_driver
+[35m[1mScanning dependencies of target applanix_driver[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/applanix_driver.dir/src/read_gsof/socket_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/applanix_driver.dir/src/read_gsof/rx.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library libapplanix_driver.so[0m
+[ 30%] Built target applanix_driver
+[35m[1mScanning dependencies of target read_gsof_exe[0m
+[35m[1mScanning dependencies of target parse_gsof_exe[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/read_gsof_exe.dir/src/read_gsof/socket_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/read_gsof_exe.dir/src/read_gsof/rx.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/parse_gsof_exe.dir/src/parse_gsof/gsof_parser_node.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/parse_gsof_exe.dir/src/parse_gsof/geo_pos_conv.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/parse_gsof_exe.dir/src/parse_gsof/gsof_parser.cpp.o[0m
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In function ‘[01m[Kvoid processLbandStatus(int, unsigned char*)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:912:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 16 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  912 |           "  Total unique words(UW):[01;35m[K%d[m[K"
+      |                                     [01;35m[K~^[m[K
+      |                                      [01;35m[K|[m[K
+      |                                      [01;35m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+......
+  938 |           [32m[Ktotal_uw[m[K,
+      |           [32m[K~~~~~~~~[m[K                    
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:913:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 17 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  913 |           "  Bad UW:[01;35m[K%d[m[K"
+      |                     [01;35m[K~^[m[K
+      |                      [01;35m[K|[m[K
+      |                      [01;35m[Kint[m[K
+      |                     [32m[K%ld[m[K
+......
+  939 |           [32m[Ktotal_bad_uw[m[K,
+      |           [32m[K~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:914:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 18 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  914 |           "  Bad UW bits:[01;35m[K%d[m[K"
+      |                          [01;35m[K~^[m[K
+      |                           [01;35m[K|[m[K
+      |                           [01;35m[Kint[m[K
+      |                          [32m[K%ld[m[K
+......
+  940 |           [32m[Ktotal_bad_uw_bits[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:916:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 19 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  916 |           "  Total Viterbi:[01;35m[K%d[m[K"
+      |                            [01;35m[K~^[m[K
+      |                             [01;35m[K|[m[K
+      |                             [01;35m[Kint[m[K
+      |                            [32m[K%ld[m[K
+......
+  941 |           [32m[Ktotal_viterbi[m[K,
+      |           [32m[K~~~~~~~~~~~~~[m[K      
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:917:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 20 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  917 |           "  Corrected Viterbi:[01;35m[K%d[m[K"
+      |                                [01;35m[K~^[m[K
+      |                                 [01;35m[K|[m[K
+      |                                 [01;35m[Kint[m[K
+      |                                [32m[K%ld[m[K
+......
+  942 |           [32m[Ktotal_bad_viterbi[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~[m[K      
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:918:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 21 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  918 |           "  Bad messages:[01;35m[K%d[m[K"
+      |                           [01;35m[K~^[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint[m[K
+      |                           [32m[K%ld[m[K
+......
+  943 |           [32m[Ktotal_bad_messages[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kbool gsofParser::processInsFullNavigationInfo(int, unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:970:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  970 | bool gsofParser::processInsFullNavigationInfo( [01;35m[Kint length[m[K, unsigned char *pData ,InsFullNavigationInfo & navInfo)
+      |                                                [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kint gsofParser::processGsofData(unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1055:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1055 |   int [01;35m[Ki[m[K ;
+      |       [01;35m[K^[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kint gsofParser::postGsofData(unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1242:9:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+ 1242 |         [01;35m[K*input_data_copy++[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1228:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcStx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1228 |   int [01;35m[KtcStx[m[K ;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1229:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtcStat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1229 |   int [01;35m[KtcStat[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1230:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtcType[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1230 |   int [01;35m[KtcType[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1232:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcCsum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1232 |   int [01;35m[KtcCsum[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1233:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcEtx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1233 |   int [01;35m[KtcEtx[m[K ;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1263:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KgsofTransmissionNumber[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1263 |   int [01;35m[KgsofTransmissionNumber[m[K ;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:1[m[K:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:[m[K In member function ‘[01m[Kvoid gsofHandler::on_sentence(std_msgs::msg::ByteMultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:186:34:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  186 | CLCPP_WARN(this->get_logger(),[01;35m[K" msg->data.size() %u: "[m[K, [32m[Kmsg->data.size()[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type {aka long unsigned int}[m[K
+
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:186:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  186 | _logger()," msg->data.size() [01;36m[K%u[m[K: ", msg->data.size());
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kunsigned int[m[K
+      |                              [32m[K%lu[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:190:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  190 |   for (int i = 0; [01;35m[Ki < msg->data.size()[m[K; i++){
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:194:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcomplete_gsof[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  194 |   int [01;35m[Kcomplete_gsof[m[K = Parser.postGsofData(sentence, navInfo);//(unsigned char *)msg->data.c_str()
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[ 90%] [32m[1mLinking CXX executable read_gsof_exe[0m
+[ 90%] Built target read_gsof_exe
+[100%] [32m[1mLinking CXX executable parse_gsof_exe[0m
+[100%] Built target parse_gsof_exe
+-- Install configuration: ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include/parse_gsof
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include/parse_gsof/geo_pos_conv.hpp
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include/parse_gsof/gsofParser.hpp
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include/read_gsof
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/include/read_gsof/rx.hpp
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/library_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/library_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/libapplanix_driver.so
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/libapplanix_driver.so" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/applanix_driver/read_gsof_exe
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/applanix_driver/read_gsof_exe" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/applanix_driver/parse_gsof_exe
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/applanix_driver/parse_gsof_exe" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/launch
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/launch/applanix.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/launch/test_gps.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/config
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/config/test_gps.rviz
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/ament_index/resource_index/package_run_dependencies/applanix_driver
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/ament_index/resource_index/parent_prefix_path/applanix_driver
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/ament_prefix_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/environment/path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/local_setup.bash
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/local_setup.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/local_setup.zsh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/local_setup.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/ament_index/resource_index/packages/applanix_driver
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/cmake/applanix_driverConfig.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/cmake/applanix_driverConfig-version.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.xml

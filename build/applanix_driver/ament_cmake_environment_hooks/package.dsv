@@ -1,0 +1,4 @@
+source;share/applanix_driver/local_setup.bash
+source;share/applanix_driver/local_setup.dsv
+source;share/applanix_driver/local_setup.sh
+source;share/applanix_driver/local_setup.zsh

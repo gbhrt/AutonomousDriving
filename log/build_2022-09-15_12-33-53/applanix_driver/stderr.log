@@ -1,0 +1,127 @@
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In function ‘[01m[Kvoid processLbandStatus(int, unsigned char*)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:912:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 16 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  912 |           "  Total unique words(UW):[01;35m[K%d[m[K"
+      |                                     [01;35m[K~^[m[K
+      |                                      [01;35m[K|[m[K
+      |                                      [01;35m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+......
+  938 |           [32m[Ktotal_uw[m[K,
+      |           [32m[K~~~~~~~~[m[K                    
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:913:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 17 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  913 |           "  Bad UW:[01;35m[K%d[m[K"
+      |                     [01;35m[K~^[m[K
+      |                      [01;35m[K|[m[K
+      |                      [01;35m[Kint[m[K
+      |                     [32m[K%ld[m[K
+......
+  939 |           [32m[Ktotal_bad_uw[m[K,
+      |           [32m[K~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:914:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 18 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  914 |           "  Bad UW bits:[01;35m[K%d[m[K"
+      |                          [01;35m[K~^[m[K
+      |                           [01;35m[K|[m[K
+      |                           [01;35m[Kint[m[K
+      |                          [32m[K%ld[m[K
+......
+  940 |           [32m[Ktotal_bad_uw_bits[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:916:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 19 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  916 |           "  Total Viterbi:[01;35m[K%d[m[K"
+      |                            [01;35m[K~^[m[K
+      |                             [01;35m[K|[m[K
+      |                             [01;35m[Kint[m[K
+      |                            [32m[K%ld[m[K
+......
+  941 |           [32m[Ktotal_viterbi[m[K,
+      |           [32m[K~~~~~~~~~~~~~[m[K      
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:917:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 20 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  917 |           "  Corrected Viterbi:[01;35m[K%d[m[K"
+      |                                [01;35m[K~^[m[K
+      |                                 [01;35m[K|[m[K
+      |                                 [01;35m[Kint[m[K
+      |                                [32m[K%ld[m[K
+......
+  942 |           [32m[Ktotal_bad_viterbi[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~[m[K      
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:918:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 21 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  918 |           "  Bad messages:[01;35m[K%d[m[K"
+      |                           [01;35m[K~^[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint[m[K
+      |                           [32m[K%ld[m[K
+......
+  943 |           [32m[Ktotal_bad_messages[m[K,
+      |           [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Klong unsigned int[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kbool gsofParser::processInsFullNavigationInfo(int, unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:970:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  970 | bool gsofParser::processInsFullNavigationInfo( [01;35m[Kint length[m[K, unsigned char *pData ,InsFullNavigationInfo & navInfo)
+      |                                                [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kint gsofParser::processGsofData(unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1055:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1055 |   int [01;35m[Ki[m[K ;
+      |       [01;35m[K^[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:[m[K In member function ‘[01m[Kint gsofParser::postGsofData(unsigned char*, InsFullNavigationInfo&)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1242:9:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+ 1242 |         [01;35m[K*input_data_copy++[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1228:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcStx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1228 |   int [01;35m[KtcStx[m[K ;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1229:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtcStat[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1229 |   int [01;35m[KtcStat[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1230:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtcType[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1230 |   int [01;35m[KtcType[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1232:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcCsum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1232 |   int [01;35m[KtcCsum[m[K ;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1233:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtcEtx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1233 |   int [01;35m[KtcEtx[m[K ;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser.cpp:1263:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KgsofTransmissionNumber[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1263 |   int [01;35m[KgsofTransmissionNumber[m[K ;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:1[m[K:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:[m[K In member function ‘[01m[Kvoid gsofHandler::on_sentence(std_msgs::msg::ByteMultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:186:34:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  186 | CLCPP_WARN(this->get_logger(),[01;35m[K" msg->data.size() %u: "[m[K, [32m[Kmsg->data.size()[m[K);
+      |                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type {aka long unsigned int}[m[K
+
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:186:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  186 | _logger()," msg->data.size() [01;36m[K%u[m[K: ", msg->data.size());
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kunsigned int[m[K
+      |                              [32m[K%lu[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:190:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  190 |   for (int i = 0; [01;35m[Ki < msg->data.size()[m[K; i++){
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gabriel/software/AutonomousDriving/src/applanix_driver/src/parse_gsof/gsof_parser_node.cpp:194:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcomplete_gsof[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  194 |   int [01;35m[Kcomplete_gsof[m[K = Parser.postGsofData(sentence, navInfo);//(unsigned char *)msg->data.c_str()
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
