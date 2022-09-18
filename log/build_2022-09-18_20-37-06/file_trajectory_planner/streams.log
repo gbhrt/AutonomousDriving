@@ -1,0 +1,106 @@
+[0.079s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[0.122s] [ 50%] Built target file_trajectory_planner
+[0.153s] [100%] Built target file_trajectory_planner_exe
+[0.169s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[0.244s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner
+[0.250s] -- Install configuration: ""
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner/file_trajectory_planner.hpp
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.sh
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.dsv
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/libfile_trajectory_planner.so
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/file_trajectory_planner/file_trajectory_planner_exe
+[0.250s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config/file_trajectory_planner_example.rviz
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/indy_track_borders_constant.txt
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/simple_traj.txt
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories
+[0.251s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj2.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-171.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/vrx_short_line.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-75.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-4.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-18.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-2.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3/full_trajectory_TUM.txt
+[0.252s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_TUM.txt
+[0.253s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-0.txt
+[0.253s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2
+[0.253s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj2.txt
+[0.253s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/scenario 2 enemy car moves 2 lanes to the left.txt
+[0.256s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj1.txt
+[0.256s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj5.txt
+[0.256s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj3.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj4.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-131.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj1.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_56.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj5.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-696.txt
+[0.257s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-8.txt
+[0.258s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org
+[0.258s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj2.txt
+[0.258s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/full_trajectory.txt
+[0.261s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj1.txt
+[0.261s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj5.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj3.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj4.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj3.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj2.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/scenario 1 enemy car moves 1 lane to the left.txt
+[0.262s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj1.txt
+[0.263s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj5.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj3.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj4.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-10.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_min_curve_51_968.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj4.txt
+[0.266s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-6.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj2.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj1.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj5.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj6.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj3.txt
+[0.267s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj7.txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj4.txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-65.txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_80.txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2.txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2 (copy).txt
+[0.268s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1 (copy).txt
+[0.269s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3 (copy).txt
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1.txt
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3.txt
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/create_trajectory.ods
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/.~lock.create_trajectory.ods#
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/lgsvl_example_traj.txt
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/pure_pursuit_test.launch.py
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner.launch.py
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner_lgsvl.launch.py
+[0.270s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/package_run_dependencies/file_trajectory_planner
+[0.271s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/parent_prefix_path/file_trajectory_planner
+[0.271s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.sh
+[0.271s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.dsv
+[0.272s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.sh
+[0.272s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.dsv
+[0.272s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.bash
+[0.273s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.sh
+[0.273s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.zsh
+[0.273s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.dsv
+[0.280s] -- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.dsv
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/packages/file_trajectory_planner
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig.cmake
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig-version.cmake
+[0.281s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.xml
+[0.331s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner

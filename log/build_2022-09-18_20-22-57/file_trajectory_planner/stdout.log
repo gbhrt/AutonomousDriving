@@ -1,0 +1,111 @@
+[35m[1mScanning dependencies of target file_trajectory_planner[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libfile_trajectory_planner.so[0m
+[ 50%] Built target file_trajectory_planner
+[35m[1mScanning dependencies of target file_trajectory_planner_exe[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner_exe.dir/src/file_trajectory_planner_node.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner_exe.dir/src/file_trajectory_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable file_trajectory_planner_exe[0m
+[100%] Built target file_trajectory_planner_exe
+-- Install configuration: ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner/file_trajectory_planner.hpp
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/libfile_trajectory_planner.so
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/libfile_trajectory_planner.so" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/file_trajectory_planner/file_trajectory_planner_exe
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/file_trajectory_planner/file_trajectory_planner_exe" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config/file_trajectory_planner_example.rviz
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/indy_track_borders_constant.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/simple_traj.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-171.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/vrx_short_line.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-75.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-18.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3/full_trajectory_TUM.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_TUM.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-0.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/scenario 2 enemy car moves 2 lanes to the left.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj5.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-131.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_56.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj5.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-696.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-8.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/full_trajectory.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj5.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/scenario 1 enemy car moves 1 lane to the left.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj5.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-10.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_min_curve_51_968.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-6.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj5.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj6.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj7.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj4.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-65.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_80.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2 (copy).txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1 (copy).txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3 (copy).txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/create_trajectory.ods
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/.~lock.create_trajectory.ods#
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/lgsvl_example_traj.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/pure_pursuit_test.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner_lgsvl.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/package_run_dependencies/file_trajectory_planner
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/parent_prefix_path/file_trajectory_planner
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.bash
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.zsh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/packages/file_trajectory_planner
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig-version.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.xml

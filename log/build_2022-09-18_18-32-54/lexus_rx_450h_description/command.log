@@ -1,0 +1,4 @@
+Invoking command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description': /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description -- -j16 -l16
+Invoked command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description' returned '0': /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description -- -j16 -l16
+Invoking command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description': /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description
+Invoked command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description' returned '0': /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description

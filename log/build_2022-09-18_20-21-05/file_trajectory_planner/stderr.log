@@ -1,0 +1,7 @@
+[01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kmotion_common/motion_common.hpp: No such file or directory
+    8 | #include [01;31m[K<motion_common/motion_common.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/file_trajectory_planner.dir/build.make:76: CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/file_trajectory_planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

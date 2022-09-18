@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.001203] (-) JobUnselected: {'identifier': 'applanix_driver'}
+[0.001222] (-) JobUnselected: {'identifier': 'autoware_auto_msgs'}
+[0.001232] (-) JobUnselected: {'identifier': 'kia_test'}
+[0.001241] (-) JobUnselected: {'identifier': 'lexus_rx_450h_description'}
+[0.001248] (-) JobUnselected: {'identifier': 'minimal_simulator'}
+[0.001258] (-) JobUnselected: {'identifier': 'motion_model_testing_simulator'}
+[0.001265] (-) JobUnselected: {'identifier': 'pid_velocity_control'}
+[0.001274] (-) JobUnselected: {'identifier': 'record_traj'}
+[0.001284] (-) JobUnselected: {'identifier': 'robot_steering_converter'}
+[0.001295] (-) JobUnselected: {'identifier': 'simulation_sync'}
+[0.001307] (-) JobUnselected: {'identifier': 'trajectory_following'}
+[0.001320] (file_trajectory_planner) JobQueued: {'identifier': 'file_trajectory_planner', 'dependencies': OrderedDict([('autoware_auto_msgs', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs')])}
+[0.001339] (file_trajectory_planner) JobStarted: {'identifier': 'file_trajectory_planner'}
+[0.014217] (file_trajectory_planner) JobProgress: {'identifier': 'file_trajectory_planner', 'progress': 'cmake'}
+[0.014432] (file_trajectory_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner', '-DCMAKE_INSTALL_PREFIX=/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner'], 'cwd': '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '2033'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77496'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:52515'), ('_', '/home/gabriel/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/gabriel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gbhrt-ASUS:@/tmp/.ICE-unix/2068,unix/gbhrt-ASUS:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', '6ccc07e5b7c441ab9d665764e0575d07'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/gabriel/software/AutowareAuto/tools/ade_image/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ff494ec2-8004-40a5-856a-16390e04977b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic')]), 'shell': False}
+[0.048560] (file_trajectory_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.083344] (file_trajectory_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.085857] (file_trajectory_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099741] (-) TimerEvent: {}
+[0.135634] (file_trajectory_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.136177] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185360] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199462] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.199980] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.200171] (-) TimerEvent: {}
+[0.202329] (file_trajectory_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.279973] (file_trajectory_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.280609] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300323] (-) TimerEvent: {}
+[0.358124] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.365037] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.365409] (file_trajectory_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.366742] (file_trajectory_planner) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)\n'}
+[0.389351] (file_trajectory_planner) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.389437] (file_trajectory_planner) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400486] (-) TimerEvent: {}
+[0.500852] (-) TimerEvent: {}
+[0.501834] (file_trajectory_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.505716] (file_trajectory_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.557346] (file_trajectory_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.575986] (file_trajectory_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.601031] (-) TimerEvent: {}
+[0.621847] (file_trajectory_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.657194] (file_trajectory_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.658845] (file_trajectory_planner) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.670374] (file_trajectory_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.670930] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.701209] (-) TimerEvent: {}
+[0.722076] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.722348] (file_trajectory_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.801326] (-) TimerEvent: {}
+[0.804807] (file_trajectory_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.804979] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.895824] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.896366] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.901413] (-) TimerEvent: {}
+[0.996903] (file_trajectory_planner) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.997665] (file_trajectory_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001481] (-) TimerEvent: {}
+[1.101743] (-) TimerEvent: {}
+[1.201966] (-) TimerEvent: {}
+[1.302177] (-) TimerEvent: {}
+[1.402393] (-) TimerEvent: {}
+[1.419687] (file_trajectory_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.429592] (file_trajectory_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[1.430448] (file_trajectory_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner\n'}
+[1.435246] (file_trajectory_planner) CommandEnded: {'returncode': 0}
+[1.436196] (file_trajectory_planner) JobProgress: {'identifier': 'file_trajectory_planner', 'progress': 'build'}
+[1.436981] (file_trajectory_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner', '--', '-j16', '-l16'], 'cwd': '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '2033'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77496'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:52515'), ('_', '/home/gabriel/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/gabriel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gbhrt-ASUS:@/tmp/.ICE-unix/2068,unix/gbhrt-ASUS:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', '6ccc07e5b7c441ab9d665764e0575d07'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/gabriel/software/AutowareAuto/tools/ade_image/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ff494ec2-8004-40a5-856a-16390e04977b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic')]), 'shell': False}
+[1.463279] (file_trajectory_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target file_trajectory_planner\x1b[0m\n'}
+[1.491382] (file_trajectory_planner) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner_node.cpp.o\x1b[0m\n'}
+[1.491579] (file_trajectory_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o\x1b[0m\n'}
+[1.502486] (-) TimerEvent: {}
+[1.565812] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Koptimal_velocity_lib/optimal_velocity_lib.hpp: No such file or directory\n'}
+[1.566423] (file_trajectory_planner) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<optimal_velocity_lib/optimal_velocity_lib.hpp>\x1b[m\x1b[K\n'}
+[1.566478] (file_trajectory_planner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.566512] (file_trajectory_planner) StderrLine: {'line': b'compilation terminated.\n'}
+[1.567389] (file_trajectory_planner) StderrLine: {'line': b'make[2]: *** [CMakeFiles/file_trajectory_planner.dir/build.make:76: CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o] Error 1\n'}
+[1.567457] (file_trajectory_planner) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.602627] (-) TimerEvent: {}
+[1.702873] (-) TimerEvent: {}
+[1.803158] (-) TimerEvent: {}
+[1.903460] (-) TimerEvent: {}
+[2.003766] (-) TimerEvent: {}
+[2.104073] (-) TimerEvent: {}
+[2.204387] (-) TimerEvent: {}
+[2.304691] (-) TimerEvent: {}
+[2.404991] (-) TimerEvent: {}
+[2.491230] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KFileTrajectoryPlannerNode::FileTrajectoryPlannerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.491468] (file_trajectory_planner) StderrLine: {'line': b"\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:19:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\\nIf you want to declare a parameter that won't change type without a default value use:\\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\\n\\nIf you want to declare a parameter that can dynamically change type use:\\n```\\nrcl_interfaces::msg::ParameterDescriptor descriptor;\\ndescriptor.dynamic_typing = true;\\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\\n``` [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[2.491526] (file_trajectory_planner) StderrLine: {'line': b'   19 |     const std::string file_name = declare_parameter("trajectory_file_name"\x1b[01;35m\x1b[K)\x1b[m\x1b[K.get<std::string>();\n'}
+[2.491563] (file_trajectory_planner) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.491609] (file_trajectory_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.491646] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.491683] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.491850] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.491893] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.491928] (file_trajectory_planner) StderrLine: {'line': b'  422 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string & name);\n'}
+[2.491966] (file_trajectory_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.492000] (file_trajectory_planner) StderrLine: {'line': b"\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:20:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\\nIf you want to declare a parameter that won't change type without a default value use:\\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\\n\\nIf you want to declare a parameter that can dynamically change type use:\\n```\\nrcl_interfaces::msg::ParameterDescriptor descriptor;\\ndescriptor.dynamic_typing = true;\\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\\n``` [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[2.492038] (file_trajectory_planner) StderrLine: {'line': b'   20 |    const std::string out_file_name = declare_parameter("trajectory_out_file_name"\x1b[01;35m\x1b[K)\x1b[m\x1b[K.get<std::string>();\n'}
+[2.492071] (file_trajectory_planner) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.492104] (file_trajectory_planner) StderrLine: {'line': b'\n'}
+[2.492135] (file_trajectory_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.492168] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.492199] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.492230] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.492262] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.492294] (file_trajectory_planner) StderrLine: {'line': b'  422 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string & name);\n'}
+[2.492329] (file_trajectory_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.492361] (file_trajectory_planner) StderrLine: {'line': b"\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:21:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\\nIf you want to declare a parameter that won't change type without a default value use:\\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\\n\\nIf you want to declare a parameter that can dynamically change type use:\\n```\\nrcl_interfaces::msg::ParameterDescriptor descriptor;\\ndescriptor.dynamic_typing = true;\\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\\n``` [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[2.492398] (file_trajectory_planner) StderrLine: {'line': b'   21 |     const bool compute_velocity = declare_parameter("compute_velocity"\x1b[01;35m\x1b[K)\x1b[m\x1b[K.get<bool>();\n'}
+[2.492431] (file_trajectory_planner) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.492463] (file_trajectory_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.492495] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.492527] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.492559] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.492591] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.492623] (file_trajectory_planner) StderrLine: {'line': b'  422 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string & name);\n'}
+[2.492655] (file_trajectory_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.492685] (file_trajectory_planner) StderrLine: {'line': b"\x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:22:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\\nIf you want to declare a parameter that won't change type without a default value use:\\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\\n\\nIf you want to declare a parameter that can dynamically change type use:\\n```\\nrcl_interfaces::msg::ParameterDescriptor descriptor;\\ndescriptor.dynamic_typing = true;\\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\\n``` [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n"}
+[2.492723] (file_trajectory_planner) StderrLine: {'line': b'   22 |     const bool log_to_file = declare_parameter("log_to_file"\x1b[01;35m\x1b[K)\x1b[m\x1b[K.get<bool>();\n'}
+[2.492754] (file_trajectory_planner) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.492787] (file_trajectory_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.492819] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.492851] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.492884] (file_trajectory_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.492917] (file_trajectory_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.492949] (file_trajectory_planner) StderrLine: {'line': b'  422 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(const std::string & name);\n'}
+[2.492984] (file_trajectory_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505137] (-) TimerEvent: {}
+[2.605423] (-) TimerEvent: {}
+[2.705706] (-) TimerEvent: {}
+[2.805991] (-) TimerEvent: {}
+[2.906341] (-) TimerEvent: {}
+[3.006664] (-) TimerEvent: {}
+[3.106909] (-) TimerEvent: {}
+[3.207195] (-) TimerEvent: {}
+[3.307501] (-) TimerEvent: {}
+[3.407799] (-) TimerEvent: {}
+[3.508146] (-) TimerEvent: {}
+[3.608446] (-) TimerEvent: {}
+[3.708754] (-) TimerEvent: {}
+[3.809057] (-) TimerEvent: {}
+[3.909370] (-) TimerEvent: {}
+[4.009671] (-) TimerEvent: {}
+[4.109956] (-) TimerEvent: {}
+[4.210229] (-) TimerEvent: {}
+[4.310495] (-) TimerEvent: {}
+[4.410740] (-) TimerEvent: {}
+[4.510989] (-) TimerEvent: {}
+[4.611263] (-) TimerEvent: {}
+[4.711533] (-) TimerEvent: {}
+[4.811865] (-) TimerEvent: {}
+[4.912148] (-) TimerEvent: {}
+[5.012409] (-) TimerEvent: {}
+[5.112673] (-) TimerEvent: {}
+[5.212935] (-) TimerEvent: {}
+[5.313189] (-) TimerEvent: {}
+[5.413462] (-) TimerEvent: {}
+[5.513794] (-) TimerEvent: {}
+[5.614138] (-) TimerEvent: {}
+[5.686611] (file_trajectory_planner) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/file_trajectory_planner.dir/all] Error 2\n'}
+[5.686747] (file_trajectory_planner) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.688100] (file_trajectory_planner) CommandEnded: {'returncode': 2}
+[5.714506] (-) TimerEvent: {}
+[5.720013] (file_trajectory_planner) JobEnded: {'identifier': 'file_trajectory_planner', 'rc': 2}
+[5.730638] (-) EventReactorShutdown: {}

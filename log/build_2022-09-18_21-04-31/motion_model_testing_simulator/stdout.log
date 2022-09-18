@@ -1,0 +1,38 @@
+Built target ament_cmake_python_copy_motion_model_testing_simulator
+running egg_info
+writing motion_model_testing_simulator.egg-info/PKG-INFO
+writing dependency_links to motion_model_testing_simulator.egg-info/dependency_links.txt
+writing top-level names to motion_model_testing_simulator.egg-info/top_level.txt
+reading manifest file 'motion_model_testing_simulator.egg-info/SOURCES.txt'
+writing manifest file 'motion_model_testing_simulator.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_motion_model_testing_simulator_egg
+-- Install configuration: ""
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/pythonpath.sh
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/pythonpath.dsv
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info
+-- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/dependency_links.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/top_level.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/PKG-INFO
+-- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/SOURCES.txt
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/example_simulation.py
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/minisim.py
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/ackermann_model.py
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/__init__.py
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/bicycle_model.py
+Listing '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator'...
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/package_run_dependencies/motion_model_testing_simulator
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/parent_prefix_path/motion_model_testing_simulator
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/path.sh
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/path.dsv
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.bash
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.sh
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.zsh
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.dsv
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/packages/motion_model_testing_simulator
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/cmake/motion_model_testing_simulatorConfig.cmake
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/cmake/motion_model_testing_simulatorConfig-version.cmake
+-- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.xml

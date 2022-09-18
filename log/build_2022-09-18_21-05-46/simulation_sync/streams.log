@@ -1,0 +1,58 @@
+[0.033s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/simulation_sync -- -j16 -l16
+[0.067s] Built target ament_cmake_python_copy_simulation_sync
+[0.238s] running egg_info
+[0.238s] writing simulation_sync.egg-info/PKG-INFO
+[0.238s] writing dependency_links to simulation_sync.egg-info/dependency_links.txt
+[0.238s] writing top-level names to simulation_sync.egg-info/top_level.txt
+[0.260s] reading manifest file 'simulation_sync.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'simulation_sync.egg-info/SOURCES.txt'
+[0.282s] Built target ament_cmake_python_build_simulation_sync_egg
+[0.359s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/simulation_sync -- -j16 -l16
+[0.376s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/simulation_sync
+[0.381s] -- Install configuration: ""
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/pythonpath.sh
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/pythonpath.dsv
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages//simulation_sync.egg-info
+[0.381s] -- Installing: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages//simulation_sync.egg-info/dependency_links.txt
+[0.381s] -- Installing: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages//simulation_sync.egg-info/top_level.txt
+[0.381s] -- Installing: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages//simulation_sync.egg-info/PKG-INFO
+[0.381s] -- Installing: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages//simulation_sync.egg-info/SOURCES.txt
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync/simulation_sync_node (copy).py
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync/simulation_sync_node.py
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync/simulation_sync_main.py
+[0.381s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync/__init__.py
+[0.402s] Listing '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages/simulation_sync'...
+[0.404s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/simulation_sync/simulation_sync_main.py
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/launch
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/launch/simulation_sync.launch.py
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle4.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/defaults.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle10.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/il15_sim.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle2.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle7.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle5.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle8.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle3.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle6.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle9.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/ego_vehicle.param.yaml
+[0.405s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/param/vehicle1.param.yaml
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/ament_index/resource_index/package_run_dependencies/simulation_sync
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/ament_index/resource_index/parent_prefix_path/simulation_sync
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/ament_prefix_path.sh
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/ament_prefix_path.dsv
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/path.sh
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/environment/path.dsv
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/local_setup.bash
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/local_setup.sh
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/local_setup.zsh
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/local_setup.dsv
+[0.406s] -- Installing: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.dsv
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/ament_index/resource_index/packages/simulation_sync
+[0.406s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/cmake/simulation_syncConfig.cmake
+[0.407s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/cmake/simulation_syncConfig-version.cmake
+[0.407s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.xml
+[0.419s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/simulation_sync

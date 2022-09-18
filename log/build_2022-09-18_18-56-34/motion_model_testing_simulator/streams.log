@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator -- -j16 -l16
+[0.048s] Built target ament_cmake_python_copy_motion_model_testing_simulator
+[0.206s] running egg_info
+[0.206s] writing motion_model_testing_simulator.egg-info/PKG-INFO
+[0.207s] writing dependency_links to motion_model_testing_simulator.egg-info/dependency_links.txt
+[0.207s] writing top-level names to motion_model_testing_simulator.egg-info/top_level.txt
+[0.228s] reading manifest file 'motion_model_testing_simulator.egg-info/SOURCES.txt'
+[0.228s] writing manifest file 'motion_model_testing_simulator.egg-info/SOURCES.txt'
+[0.245s] Built target ament_cmake_python_build_motion_model_testing_simulator_egg
+[0.254s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator -- -j16 -l16
+[0.269s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator
+[0.275s] -- Install configuration: ""
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/pythonpath.sh
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/pythonpath.dsv
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info
+[0.275s] -- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/dependency_links.txt
+[0.275s] -- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/top_level.txt
+[0.275s] -- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/PKG-INFO
+[0.275s] -- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages//motion_model_testing_simulator.egg-info/SOURCES.txt
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/example_simulation.py
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/minisim.py
+[0.275s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/ackermann_model.py
+[0.276s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/__init__.py
+[0.276s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator/bicycle_model.py
+[0.296s] Listing '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages/motion_model_testing_simulator'...
+[0.299s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/package_run_dependencies/motion_model_testing_simulator
+[0.299s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/parent_prefix_path/motion_model_testing_simulator
+[0.299s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/path.sh
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/environment/path.dsv
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.bash
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.sh
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.zsh
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/local_setup.dsv
+[0.300s] -- Installing: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.dsv
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/ament_index/resource_index/packages/motion_model_testing_simulator
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/cmake/motion_model_testing_simulatorConfig.cmake
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/cmake/motion_model_testing_simulatorConfig-version.cmake
+[0.300s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.xml
+[0.305s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator

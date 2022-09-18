@@ -1,7 +1,8 @@
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/config/kia.rviz
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/kia_load.launch.py
-/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/kia_drive.launch.py
-/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/kia_record.launch.py
+/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/sim_load.launch.py
+/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/drive_vehicle.launch.py
+/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/record_trajectory.launch.py
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/ament_index/resource_index/package_run_dependencies/kia_test
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/ament_index/resource_index/parent_prefix_path/kia_test
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/environment/ament_prefix_path.sh

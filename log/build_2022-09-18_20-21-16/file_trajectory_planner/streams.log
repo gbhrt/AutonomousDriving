@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[0.048s] [35m[1mScanning dependencies of target file_trajectory_planner[0m
+[0.067s] [ 16%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o[0m
+[1.140s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[Kstd::vector<autoware_auto_msgs::msg::TrajectoryPoint_<std::allocator<void> >, std::allocator<autoware_auto_msgs::msg::TrajectoryPoint_<std::allocator<void> > > > FileTrajectoryPlanner::read_trajectory_from_file(std::string)[m[K’:
+[1.140s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:115:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kfrom_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Kto_angle[m[K’?
+[1.140s]   115 |     traj_vector.at(i).heading = [01;31m[Kfrom_angle[m[K(angle);
+[1.140s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[1.141s]       |                                 [32m[Kto_angle[m[K
+[1.141s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.141s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.141s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:4[m[K:
+[1.142s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[Kstd::size_t FileTrajectoryPlanner::get_closest_state_index(KinematicState)[m[K’:
+[1.142s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:221:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.142s]   221 |     RCLCPP_INFO(rclcpp::get_logger("logger"), [01;35m[K"max_steps: %d"[m[K, [32m[K(max_steps)[m[K);
+[1.142s]       |                                               [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[1.142s]       |                                                                 [32m[K|[m[K
+[1.142s]       |                                                                 [32m[Ksize_t {aka long unsigned int}[m[K
+[1.142s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:221:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.142s]   221 |     RCLCPP_INFO(rclcpp::get_logger("logger"), "max_steps: [01;36m[K%d[m[K", (max_steps));
+[1.142s]       |                                                           [01;36m[K~^[m[K
+[1.142s]       |                                                            [01;36m[K|[m[K
+[1.142s]       |                                                            [01;36m[Kint[m[K
+[1.142s]       |                                                           [32m[K%ld[m[K
+[1.395s] make[2]: *** [CMakeFiles/file_trajectory_planner.dir/build.make:76: CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o] Error 1
+[1.395s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/file_trajectory_planner.dir/all] Error 2
+[1.395s] make: *** [Makefile:141: all] Error 2
+[1.397s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '2': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16

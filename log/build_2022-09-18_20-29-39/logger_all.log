@@ -1,0 +1,914 @@
+[0.297s] DEBUG:colcon:Command line arguments: ['/home/gabriel/.local/bin/colcon', 'build']
+[0.297s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f68b9750cd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f68b9750cd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f68b9755280>)
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gabriel/software/AutonomousDriving'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/applanix_driver) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/applanix_driver' with type 'ros.ament_cmake' and name 'applanix_driver'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoware_auto_msgs) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autoware_auto_msgs' with type 'ros.ament_cmake' and name 'autoware_auto_msgs'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/file_trajectory_planner) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/file_trajectory_planner' with type 'ros.ament_cmake' and name 'file_trajectory_planner'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/kia_test) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kia_test' with type 'ros.ament_cmake' and name 'kia_test'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/minimal_simulator) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minimal_simulator' with type 'ros.ament_cmake' and name 'minimal_simulator'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_model_testing_simulator) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_model_testing_simulator' with type 'ros.ament_cmake' and name 'motion_model_testing_simulator'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_velocity_control) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_velocity_control' with type 'ros.ament_cmake' and name 'pid_velocity_control'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_traj) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/record_traj' with type 'ros.ament_cmake' and name 'record_traj'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_steering_converter) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_steering_converter' with type 'ros.ament_cmake' and name 'robot_steering_converter'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_sync) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_sync' with type 'ros.ament_cmake' and name 'simulation_sync'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_following) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_following' with type 'ros.ament_cmake' and name 'trajectory_following'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/lexus_rx_450h_description) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf/lexus_rx_450h_description' with type 'ros.ament_cmake' and name 'lexus_rx_450h_description'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_auto_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/autoware_auto_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'lexus_rx_450h_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'lexus_rx_450h_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/urdf/lexus_rx_450h_description', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'motion_model_testing_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'motion_model_testing_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/motion_model_testing_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'applanix_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'applanix_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/applanix_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/applanix_driver', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/applanix_driver', 'symlink_install': False, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'file_trajectory_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'file_trajectory_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner', 'symlink_install': False, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'minimal_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'minimal_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/minimal_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/minimal_simulator', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/minimal_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'pid_velocity_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'pid_velocity_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/pid_velocity_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/pid_velocity_control', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'record_traj' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'record_traj' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/record_traj', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/record_traj', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/record_traj', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'robot_steering_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'robot_steering_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/robot_steering_converter', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'simulation_sync' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_sync' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/simulation_sync', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/simulation_sync', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/simulation_sync', 'symlink_install': False, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'trajectory_following' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_following' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/trajectory_following', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/trajectory_following', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/trajectory_following', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'kia_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'kia_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriel/software/AutonomousDriving/build/kia_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriel/software/AutonomousDriving/install/kia_test', 'merge_install': False, 'path': '/home/gabriel/software/AutonomousDriving/src/kia_test', 'symlink_install': False, 'test_result_base': None}
+[0.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.402s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/autoware_auto_msgs' with build type 'ament_cmake'
+[0.402s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/autoware_auto_msgs'
+[0.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/urdf/lexus_rx_450h_description' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/urdf/lexus_rx_450h_description'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/motion_model_testing_simulator' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/motion_model_testing_simulator'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs -- -j16 -l16
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description -- -j16 -l16
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator -- -j16 -l16
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description -- -j16 -l16
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lexus_rx_450h_description)
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/lexus_rx_450h_description
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description' for CMake module files
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description' for CMake config files
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('lexus_rx_450h_description', 'cmake_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/lib/pkgconfig/lexus_rx_450h_description.pc'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/lib/python3.8/site-packages'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.sh'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.zsh'
+[0.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/colcon-core/packages/lexus_rx_450h_description)
+[0.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lexus_rx_450h_description)
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description' for CMake module files
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('lexus_rx_450h_description', 'cmake_prefix_path')
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/hook/cmake_prefix_path.sh'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/bin'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/lib/pkgconfig/lexus_rx_450h_description.pc'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/lib/python3.8/site-packages'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/lexus_rx_450h_description/package.zsh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description/share/colcon-core/packages/lexus_rx_450h_description)
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs -- -j16 -l16
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator -- -j16 -l16
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator
+[0.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_model_testing_simulator)
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator' for CMake module files
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/motion_model_testing_simulator
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator' for CMake config files
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_model_testing_simulator', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.sh'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/bin'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/pkgconfig/motion_model_testing_simulator.pc'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages'
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_model_testing_simulator', 'pythonpath')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.bash'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/colcon-core/packages/motion_model_testing_simulator)
+[0.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_model_testing_simulator)
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator' for CMake module files
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator' for CMake config files
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_model_testing_simulator', 'cmake_prefix_path')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/cmake_prefix_path.sh'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/pkgconfig/motion_model_testing_simulator.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages'
+[0.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_model_testing_simulator', 'pythonpath')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/hook/pythonpath.sh'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.sh'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.bash'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/motion_model_testing_simulator/package.zsh'
+[0.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/share/colcon-core/packages/motion_model_testing_simulator)
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs
+[0.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_msgs)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs' for CMake module files
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/autoware_auto_msgs
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs' for CMake config files
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'cmake_prefix_path')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.sh'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib'
+[0.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'ld_library_path_lib')
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.sh'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/bin'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/pkgconfig/autoware_auto_msgs.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages'
+[0.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'pythonpath')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.ps1'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.sh'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.zsh'
+[0.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/colcon-core/packages/autoware_auto_msgs)
+[1.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_msgs)
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs' for CMake module files
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs' for CMake config files
+[1.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'cmake_prefix_path')
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/cmake_prefix_path.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib'
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'ld_library_path_lib')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/ld_library_path_lib.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/pkgconfig/autoware_auto_msgs.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages'
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_msgs', 'pythonpath')
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/hook/pythonpath.sh'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.sh'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.bash'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/autoware_auto_msgs/package.zsh'
+[1.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/share/colcon-core/packages/autoware_auto_msgs)
+[1.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/applanix_driver' with build type 'ament_cmake'
+[1.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/applanix_driver'
+[1.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner' with build type 'ament_cmake'
+[1.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner'
+[1.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/minimal_simulator' with build type 'ament_cmake'
+[1.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/minimal_simulator'
+[1.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/pid_velocity_control' with build type 'ament_cmake'
+[1.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/pid_velocity_control'
+[1.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.545s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/record_traj' with build type 'ament_cmake'
+[1.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/record_traj'
+[1.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/robot_steering_converter' with build type 'ament_cmake'
+[1.555s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/robot_steering_converter'
+[1.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/simulation_sync' with build type 'ament_cmake'
+[1.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/simulation_sync'
+[1.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.575s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/trajectory_following' with build type 'ament_cmake'
+[1.575s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/trajectory_following'
+[1.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/applanix_driver': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/applanix_driver -- -j16 -l16
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/minimal_simulator': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/minimal_simulator -- -j16 -l16
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/pid_velocity_control': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/pid_velocity_control -- -j16 -l16
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/record_traj': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/record_traj -- -j16 -l16
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/robot_steering_converter -- -j16 -l16
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/simulation_sync -- -j16 -l16
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/trajectory_following': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/trajectory_following -- -j16 -l16
+[1.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/applanix_driver' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/applanix_driver -- -j16 -l16
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/pid_velocity_control' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/pid_velocity_control -- -j16 -l16
+[1.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/record_traj' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/record_traj -- -j16 -l16
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/pid_velocity_control': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/pid_velocity_control
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/trajectory_following' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/trajectory_following -- -j16 -l16
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/applanix_driver': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/applanix_driver
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner
+[1.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_velocity_control)
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/record_traj': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/record_traj
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control' for CMake module files
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control' for CMake config files
+[1.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/pid_velocity_control' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/pid_velocity_control
+[1.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_velocity_control', 'cmake_prefix_path')
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.ps1'
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.dsv'
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.sh'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib'
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_velocity_control', 'ld_library_path_lib')
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.ps1'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.sh'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib/pkgconfig/pid_velocity_control.pc'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib/python3.8/site-packages'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.ps1'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.sh'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.bash'
+[1.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.zsh'
+[1.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/colcon-core/packages/pid_velocity_control)
+[1.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(applanix_driver)
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver' for CMake module files
+[1.736s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver' for CMake config files
+[1.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/applanix_driver' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/applanix_driver
+[1.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('applanix_driver', 'cmake_prefix_path')
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.ps1'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.dsv'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.sh'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib'
+[1.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('applanix_driver', 'ld_library_path_lib')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.ps1'
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.sh'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/bin'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/pkgconfig/applanix_driver.pc'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/python3.8/site-packages'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.sh'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.bash'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.zsh'
+[1.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/colcon-core/packages/applanix_driver)
+[1.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(record_traj)
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj' for CMake module files
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/record_traj' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/record_traj
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj' for CMake config files
+[1.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_traj', 'cmake_prefix_path')
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.dsv'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.sh'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib'
+[1.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_traj', 'ld_library_path_lib')
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/bin'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib/pkgconfig/record_traj.pc'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib/python3.8/site-packages'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.sh'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.bash'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.zsh'
+[1.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/record_traj/share/colcon-core/packages/record_traj)
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/trajectory_following': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/trajectory_following
+[1.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(file_trajectory_planner)
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner' for CMake module files
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner' for CMake config files
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('file_trajectory_planner', 'cmake_prefix_path')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('file_trajectory_planner', 'ld_library_path_lib')
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.sh'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/bin'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/pkgconfig/file_trajectory_planner.pc'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/python3.8/site-packages'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.ps1'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.dsv'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.sh'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.bash'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.zsh'
+[1.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/colcon-core/packages/file_trajectory_planner)
+[1.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_velocity_control)
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control' for CMake module files
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control' for CMake config files
+[1.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_velocity_control', 'cmake_prefix_path')
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.ps1'
+[1.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.dsv'
+[1.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/cmake_prefix_path.sh'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib'
+[1.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_velocity_control', 'ld_library_path_lib')
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/hook/ld_library_path_lib.sh'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/bin'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib/pkgconfig/pid_velocity_control.pc'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/lib/python3.8/site-packages'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.bash'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/pid_velocity_control/package.zsh'
+[1.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/pid_velocity_control/share/colcon-core/packages/pid_velocity_control)
+[1.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_following)
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following' for CMake module files
+[1.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/trajectory_following' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/trajectory_following
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following' for CMake config files
+[1.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_following', 'cmake_prefix_path')
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.dsv'
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.sh'
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib'
+[1.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_following', 'ld_library_path_lib')
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.dsv'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.sh'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/bin'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib/pkgconfig/trajectory_following.pc'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib/python3.8/site-packages'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.sh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.zsh'
+[1.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/colcon-core/packages/trajectory_following)
+[1.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(applanix_driver)
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver' for CMake module files
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver' for CMake config files
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('applanix_driver', 'cmake_prefix_path')
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/cmake_prefix_path.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib'
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('applanix_driver', 'ld_library_path_lib')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/hook/ld_library_path_lib.sh'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/bin'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/pkgconfig/applanix_driver.pc'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib/python3.8/site-packages'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.sh'
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.bash'
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/applanix_driver/package.zsh'
+[1.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/applanix_driver/share/colcon-core/packages/applanix_driver)
+[1.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(record_traj)
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj' for CMake module files
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj' for CMake config files
+[1.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_traj', 'cmake_prefix_path')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.ps1'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.dsv'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/cmake_prefix_path.sh'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib'
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_traj', 'ld_library_path_lib')
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/hook/ld_library_path_lib.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/bin'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib/pkgconfig/record_traj.pc'
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/record_traj/lib/python3.8/site-packages'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.sh'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.bash'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.zsh'
+[1.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/record_traj/share/colcon-core/packages/record_traj)
+[1.878s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gabriel/software/AutonomousDriving/src/kia_test' with build type 'ament_cmake'
+[1.878s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gabriel/software/AutonomousDriving/src/kia_test'
+[1.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(file_trajectory_planner)
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner' for CMake module files
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner' for CMake config files
+[1.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('file_trajectory_planner', 'cmake_prefix_path')
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.dsv'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/cmake_prefix_path.sh'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib'
+[1.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('file_trajectory_planner', 'ld_library_path_lib')
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.ps1'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/hook/ld_library_path_lib.sh'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/bin'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/pkgconfig/file_trajectory_planner.pc'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/python3.8/site-packages'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.sh'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.bash'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.zsh'
+[1.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/colcon-core/packages/file_trajectory_planner)
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/minimal_simulator' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/minimal_simulator -- -j16 -l16
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/robot_steering_converter -- -j16 -l16
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/simulation_sync -- -j16 -l16
+[1.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_following)
+[1.920s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following' for CMake module files
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following' for CMake config files
+[1.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_following', 'cmake_prefix_path')
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/cmake_prefix_path.sh'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib'
+[1.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_following', 'ld_library_path_lib')
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/hook/ld_library_path_lib.sh'
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/bin'
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib/pkgconfig/trajectory_following.pc'
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/trajectory_following/lib/python3.8/site-packages'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.sh'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.bash'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/trajectory_following/package.zsh'
+[1.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/trajectory_following/share/colcon-core/packages/trajectory_following)
+[1.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/kia_test': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/kia_test -- -j16 -l16
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/minimal_simulator': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/minimal_simulator
+[1.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/robot_steering_converter
+[1.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/simulation_sync
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/kia_test' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/kia_test -- -j16 -l16
+[1.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_steering_converter)
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter' for CMake module files
+[1.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/robot_steering_converter
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter' for CMake config files
+[1.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_steering_converter', 'cmake_prefix_path')
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.ps1'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.sh'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/bin'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/pkgconfig/robot_steering_converter.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages'
+[1.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_steering_converter', 'pythonpath')
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.sh'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.ps1'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.sh'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.bash'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.zsh'
+[1.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/colcon-core/packages/robot_steering_converter)
+[1.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minimal_simulator)
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator' for CMake module files
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/minimal_simulator' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/motion_model_testing_simulator/lib/python3.8/site-packages:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/minimal_simulator
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator' for CMake config files
+[1.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_simulator', 'cmake_prefix_path')
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.dsv'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.sh'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/bin'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib/pkgconfig/minimal_simulator.pc'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib/python3.8/site-packages'
+[2.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_simulator', 'pythonpath')
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.ps1'
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.dsv'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.ps1'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.dsv'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.bash'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.zsh'
+[2.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/colcon-core/packages/minimal_simulator)
+[2.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_sync)
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync' for CMake module files
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/simulation_sync' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/simulation_sync
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync' for CMake config files
+[2.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_sync', 'cmake_prefix_path')
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.ps1'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.sh'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/bin'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/pkgconfig/simulation_sync.pc'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages'
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_sync', 'pythonpath')
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.sh'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.dsv'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.sh'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.bash'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.zsh'
+[2.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/colcon-core/packages/simulation_sync)
+[2.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriel/software/AutonomousDriving/build/kia_test': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/kia_test
+[2.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_steering_converter)
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter' for CMake module files
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter' for CMake config files
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_steering_converter', 'cmake_prefix_path')
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.dsv'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/cmake_prefix_path.sh'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/bin'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/pkgconfig/robot_steering_converter.pc'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages'
+[2.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_steering_converter', 'pythonpath')
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.ps1'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/hook/pythonpath.sh'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.dsv'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.sh'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.bash'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.zsh'
+[2.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/colcon-core/packages/robot_steering_converter)
+[2.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minimal_simulator)
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator' for CMake module files
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator' for CMake config files
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_simulator', 'cmake_prefix_path')
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.ps1'
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.dsv'
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/cmake_prefix_path.sh'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/bin'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib/pkgconfig/minimal_simulator.pc'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/lib/python3.8/site-packages'
+[2.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_simulator', 'pythonpath')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.ps1'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/hook/pythonpath.sh'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.dsv'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.sh'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.bash'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/minimal_simulator/package.zsh'
+[2.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/minimal_simulator/share/colcon-core/packages/minimal_simulator)
+[2.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kia_test)
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test' for CMake module files
+[2.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriel/software/AutonomousDriving/build/kia_test' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver:/home/gabriel/software/AutonomousDriving/install/lexus_rx_450h_description:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/applanix_driver/lib:/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/kia_test
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test' for CMake config files
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('kia_test', 'cmake_prefix_path')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/lib/pkgconfig/kia_test.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/lib/python3.8/site-packages'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.sh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.zsh'
+[2.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/kia_test/share/colcon-core/packages/kia_test)
+[2.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_sync)
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync' for CMake module files
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync' for CMake config files
+[2.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_sync', 'cmake_prefix_path')
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/cmake_prefix_path.sh'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/bin'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/pkgconfig/simulation_sync.pc'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/simulation_sync/lib/python3.8/site-packages'
+[2.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_sync', 'pythonpath')
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.dsv'
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/hook/pythonpath.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.ps1'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.dsv'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.bash'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/simulation_sync/package.zsh'
+[2.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/simulation_sync/share/colcon-core/packages/simulation_sync)
+[2.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kia_test)
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test' for CMake module files
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test' for CMake config files
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('kia_test', 'cmake_prefix_path')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/hook/cmake_prefix_path.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/bin'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/lib/pkgconfig/kia_test.pc'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/gabriel/software/AutonomousDriving/install/kia_test/lib/python3.8/site-packages'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.sh'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/package.zsh'
+[2.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriel/software/AutonomousDriving/install/kia_test/share/colcon-core/packages/kia_test)
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.112s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.119s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.119s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.119s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.129s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/software/AutonomousDriving/install/local_setup.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriel/software/AutonomousDriving/install/_local_setup_util_ps1.py'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/software/AutonomousDriving/install/setup.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/software/AutonomousDriving/install/local_setup.sh'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriel/software/AutonomousDriving/install/_local_setup_util_sh.py'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/software/AutonomousDriving/install/setup.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/software/AutonomousDriving/install/local_setup.bash'
+[2.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/software/AutonomousDriving/install/setup.bash'
+[2.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriel/software/AutonomousDriving/install/local_setup.zsh'
+[2.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriel/software/AutonomousDriving/install/setup.zsh'

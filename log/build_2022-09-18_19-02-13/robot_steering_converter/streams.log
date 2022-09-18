@@ -1,0 +1,82 @@
+[0.031s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gabriel/software/AutonomousDriving/src/robot_steering_converter -DCMAKE_INSTALL_PREFIX=/home/gabriel/software/AutonomousDriving/install/robot_steering_converter
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.103s] -- The CXX compiler identification is GNU 9.4.0
+[0.104s] -- Check for working C compiler: /usr/bin/cc
+[0.150s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.150s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.253s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.330s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.331s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.446s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.446s] -- Added test 'lint_cmake' to check CMake code style
+[0.447s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.447s] -- Added test 'xmllint' to check XML markup files
+[0.448s] -- Configuring done
+[0.450s] -- Generating done
+[0.451s] -- Build files have been written to: /home/gabriel/software/AutonomousDriving/build/robot_steering_converter
+[0.453s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gabriel/software/AutonomousDriving/src/robot_steering_converter -DCMAKE_INSTALL_PREFIX=/home/gabriel/software/AutonomousDriving/install/robot_steering_converter
+[0.455s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/robot_steering_converter -- -j16 -l16
+[0.483s] [35m[1mScanning dependencies of target ament_cmake_python_copy_robot_steering_converter[0m
+[0.495s] Built target ament_cmake_python_copy_robot_steering_converter
+[0.505s] [35m[1mScanning dependencies of target ament_cmake_python_build_robot_steering_converter_egg[0m
+[0.652s] running egg_info
+[0.652s] creating robot_steering_converter.egg-info
+[0.652s] writing robot_steering_converter.egg-info/PKG-INFO
+[0.653s] writing dependency_links to robot_steering_converter.egg-info/dependency_links.txt
+[0.653s] writing top-level names to robot_steering_converter.egg-info/top_level.txt
+[0.653s] writing manifest file 'robot_steering_converter.egg-info/SOURCES.txt'
+[0.673s] reading manifest file 'robot_steering_converter.egg-info/SOURCES.txt'
+[0.673s] writing manifest file 'robot_steering_converter.egg-info/SOURCES.txt'
+[0.688s] Built target ament_cmake_python_build_robot_steering_converter_egg
+[0.696s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/robot_steering_converter -- -j16 -l16
+[0.710s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/robot_steering_converter
+[0.715s] -- Install configuration: ""
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/pythonpath.sh
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/pythonpath.dsv
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages//robot_steering_converter.egg-info
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages//robot_steering_converter.egg-info/dependency_links.txt
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages//robot_steering_converter.egg-info/top_level.txt
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages//robot_steering_converter.egg-info/PKG-INFO
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages//robot_steering_converter.egg-info/SOURCES.txt
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/__init__.py
+[0.715s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/robot_steering_converter_node.py
+[0.716s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/robot_steering_converter_main.py
+[0.735s] Listing '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter'...
+[0.735s] Compiling '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/__init__.py'...
+[0.735s] Compiling '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/robot_steering_converter_main.py'...
+[0.735s] Compiling '/home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/python3.8/site-packages/robot_steering_converter/robot_steering_converter_node.py'...
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/lib/robot_steering_converter/robot_steering_converter_main.py
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/config
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/config/manual_example.rviz
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/launch
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/launch/manual_steering.launch.py
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/launch/manual_steering_with_pid.launch.py
+[0.737s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/launch/manual_steering_example.launch.py
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/ament_index/resource_index/package_run_dependencies/robot_steering_converter
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/ament_index/resource_index/parent_prefix_path/robot_steering_converter
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/ament_prefix_path.sh
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/ament_prefix_path.dsv
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/path.sh
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/environment/path.dsv
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/local_setup.bash
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/local_setup.sh
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/local_setup.zsh
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/local_setup.dsv
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.dsv
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/ament_index/resource_index/packages/robot_steering_converter
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/cmake/robot_steering_converterConfig.cmake
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/cmake/robot_steering_converterConfig-version.cmake
+[0.738s] -- Installing: /home/gabriel/software/AutonomousDriving/install/robot_steering_converter/share/robot_steering_converter/package.xml
+[0.743s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/robot_steering_converter' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/robot_steering_converter

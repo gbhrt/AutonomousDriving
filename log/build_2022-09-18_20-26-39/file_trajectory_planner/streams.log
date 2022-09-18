@@ -1,0 +1,215 @@
+[0.017s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[0.049s] [35m[1mScanning dependencies of target file_trajectory_planner[0m
+[0.068s] [ 16%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner_node.cpp.o[0m
+[0.068s] [ 33%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o[0m
+[1.169s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.169s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.169s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:4[m[K:
+[1.169s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[Kstd::size_t FileTrajectoryPlanner::get_closest_state_index(KinematicState)[m[K’:
+[1.169s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:196:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.169s]   196 |     RCLCPP_INFO(rclcpp::get_logger("logger"), [01;35m[K"max_steps: %d"[m[K, [32m[K(max_steps)[m[K);
+[1.169s]       |                                               [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[1.169s]       |                                                                 [32m[K|[m[K
+[1.169s]       |                                                                 [32m[Ksize_t {aka long unsigned int}[m[K
+[1.169s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:196:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.169s]   196 |     RCLCPP_INFO(rclcpp::get_logger("logger"), "max_steps: [01;36m[K%d[m[K", (max_steps));
+[1.169s]       |                                                           [01;36m[K~^[m[K
+[1.169s]       |                                                            [01;36m[K|[m[K
+[1.169s]       |                                                            [01;36m[Kint[m[K
+[1.169s]       |                                                           [32m[K%ld[m[K
+[1.209s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:[m[K In constructor ‘[01m[KFileTrajectoryPlannerNode::FileTrajectoryPlannerNode()[m[K’:
+[1.209s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:27:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.209s]    27 |     const std::string file_name = declare_parameter("trajectory_file_name"[01;35m[K)[m[K.get<std::string>();
+[1.209s]       |                                                                           [01;35m[K^[m[K
+[1.209s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.209s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[1.209s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.210s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2[m[K:
+[1.210s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.210s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[1.210s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.210s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:30:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.210s]    30 |     const bool compute_velocity = declare_parameter("compute_velocity"[01;35m[K)[m[K.get<bool>();
+[1.210s]       |                                                                       [01;35m[K^[m[K
+[1.210s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.210s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[1.210s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.210s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2[m[K:
+[1.210s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.210s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[1.210s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.655s] [ 50%] [32m[1mLinking CXX shared library libfile_trajectory_planner.so[0m
+[4.870s] [ 50%] Built target file_trajectory_planner
+[4.878s] [35m[1mScanning dependencies of target file_trajectory_planner_exe[0m
+[4.898s] [ 66%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner_exe.dir/src/file_trajectory_planner_node.cpp.o[0m
+[4.898s] [ 83%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner_exe.dir/src/file_trajectory_planner.cpp.o[0m
+[5.982s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[Kbool FileTrajectoryPlanner::init_traj(std::string, bool, bool)[m[K’:
+[5.982s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:29:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcompute_velocity[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.982s]    29 | bool FileTrajectoryPlanner::init_traj(std::string file_name, [01;35m[Kbool compute_velocity[m[K, bool also_behind)
+[5.982s]       |                                                              [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[5.982s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:29:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalso_behind[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.982s]    29 | bool FileTrajectoryPlanner::init_traj(std::string file_name, bool compute_velocity, [01;35m[Kbool also_behind[m[K)
+[5.982s]       |                                                                                     [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[5.983s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[KTrajectory FileTrajectoryPlanner::get_trajectory(KinematicState&)[m[K’:
+[5.983s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:107:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoints_number[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.983s]   107 |   size_t [01;35m[Kpoints_number[m[K = traj.CAPACITY / 2;
+[5.983s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[5.983s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[5.983s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[5.984s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.984s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[5.984s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[5.984s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:4[m[K:
+[5.984s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:[m[K In member function ‘[01m[Kstd::size_t FileTrajectoryPlanner::get_closest_state_index(KinematicState)[m[K’:
+[5.984s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:196:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[5.984s]   196 |     RCLCPP_INFO(rclcpp::get_logger("logger"), [01;35m[K"max_steps: %d"[m[K, [32m[K(max_steps)[m[K);
+[5.984s]       |                                               [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[5.984s]       |                                                                 [32m[K|[m[K
+[5.984s]       |                                                                 [32m[Ksize_t {aka long unsigned int}[m[K
+[5.984s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner.cpp:196:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.984s]   196 |     RCLCPP_INFO(rclcpp::get_logger("logger"), "max_steps: [01;36m[K%d[m[K", (max_steps));
+[5.984s]       |                                                           [01;36m[K~^[m[K
+[5.984s]       |                                                            [01;36m[K|[m[K
+[5.984s]       |                                                            [01;36m[Kint[m[K
+[5.984s]       |                                                           [32m[K%ld[m[K
+[6.033s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:[m[K In constructor ‘[01m[KFileTrajectoryPlannerNode::FileTrajectoryPlannerNode()[m[K’:
+[6.033s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:27:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.033s]    27 |     const std::string file_name = declare_parameter("trajectory_file_name"[01;35m[K)[m[K.get<std::string>();
+[6.033s]       |                                                                           [01;35m[K^[m[K
+[6.033s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.033s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[6.033s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[6.033s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2[m[K:
+[6.033s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.033s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[6.033s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.033s] [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:30:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.034s]    30 |     const bool compute_velocity = declare_parameter("compute_velocity"[01;35m[K)[m[K.get<bool>();
+[6.034s]       |                                                                       [01;35m[K^[m[K
+[6.034s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.034s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[6.034s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[6.034s]                  from [01m[K/home/gabriel/software/AutonomousDriving/src/file_trajectory_planner/src/file_trajectory_planner_node.cpp:2[m[K:
+[6.034s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.034s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[6.034s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[9.464s] [100%] [32m[1mLinking CXX executable file_trajectory_planner_exe[0m
+[9.676s] [100%] Built target file_trajectory_planner_exe
+[9.683s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner -- -j16 -l16
+[9.725s] Invoking command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner
+[9.735s] -- Install configuration: ""
+[9.735s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include
+[9.735s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner
+[9.735s] -- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/include/file_trajectory_planner/file_trajectory_planner.hpp
+[9.735s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.sh
+[9.735s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/library_path.dsv
+[9.735s] -- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/libfile_trajectory_planner.so
+[9.739s] -- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/libfile_trajectory_planner.so" to ""
+[9.739s] -- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/file_trajectory_planner/file_trajectory_planner_exe
+[9.741s] -- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/lib/file_trajectory_planner/file_trajectory_planner_exe" to ""
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/config/file_trajectory_planner_example.rviz
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/indy_track_borders_constant.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/simple_traj.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj2.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-171.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/vrx_short_line.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-75.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-4.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-18.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-2.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_3/full_trajectory_TUM.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_TUM.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-0.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj2.txt
+[9.742s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/scenario 2 enemy car moves 2 lanes to the left.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj1.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj5.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj3.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_2/traj4.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-131.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj1.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_56.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj5.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-696.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-8.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj2.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/full_trajectory.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj1.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj5.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj3.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/org/traj4.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj3.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj2.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/scenario 1 enemy car moves 1 lane to the left.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj1.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj5.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj3.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/Scenario_1/traj4.txt
+[9.743s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-10.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_min_curve_51_968.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/traj4.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-6.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj2.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj1.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj5.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj6.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj3.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj7.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option7/traj4.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory-65.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/full_trajectory_80.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2.txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj2 (copy).txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1 (copy).txt
+[9.744s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3 (copy).txt
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj1.txt
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/trajectories/option2/traj3.txt
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/create_trajectory.ods
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/.~lock.create_trajectory.ods#
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/param/lgsvl_example_traj.txt
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/pure_pursuit_test.launch.py
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner.launch.py
+[9.745s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/launch/file_trajectory_planner_lgsvl.launch.py
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/package_run_dependencies/file_trajectory_planner
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/parent_prefix_path/file_trajectory_planner
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.sh
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/ament_prefix_path.dsv
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.sh
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/environment/path.dsv
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.bash
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.sh
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.zsh
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/local_setup.dsv
+[9.746s] -- Installing: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.dsv
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/ament_index/resource_index/packages/file_trajectory_planner
+[9.746s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.747s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.747s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[9.747s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig.cmake
+[9.747s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/cmake/file_trajectory_plannerConfig-version.cmake
+[9.747s] -- Up-to-date: /home/gabriel/software/AutonomousDriving/install/file_trajectory_planner/share/file_trajectory_planner/package.xml
+[9.747s] Invoked command in '/home/gabriel/software/AutonomousDriving/build/file_trajectory_planner' returned '0': AMENT_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gabriel/.mujoco/mujoco200/bin:/home/gabriel/.mujoco/mjpro131/bin:/home/gabriel/.mujoco/mjpro150/bin:/usr/lib/x86_64-linux-gnu/ PYTHONPATH=/home/gabriel/software/AutonomousDriving/install/autoware_auto_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner

@@ -1,0 +1,14 @@
+-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabriel/software/AutonomousDriving/build/file_trajectory_planner
+[35m[1mScanning dependencies of target file_trajectory_planner[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/file_trajectory_planner.dir/src/file_trajectory_planner.cpp.o[0m

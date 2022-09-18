@@ -1,0 +1,40 @@
+[35m[1mScanning dependencies of target record_traj[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/record_traj.dir/src/record_traj_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librecord_traj.so[0m
+[ 50%] Built target record_traj
+[35m[1mScanning dependencies of target record_traj_exe[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/record_traj_exe.dir/src/record_traj_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable record_traj_exe[0m
+[100%] Built target record_traj_exe
+-- Install configuration: ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/include
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/include/record_traj
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/library_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/library_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/lib/librecord_traj.so
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/record_traj/lib/librecord_traj.so" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/lib/record_traj/record_traj_exe
+-- Set runtime path of "/home/gabriel/software/AutonomousDriving/install/record_traj/lib/record_traj/record_traj_exe" to ""
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/launch
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/launch/lgsvl_interface_and_tf.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/launch/simple_controller_test.launch.py
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/param
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/param/example.txt
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/ament_index/resource_index/package_run_dependencies/record_traj
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/ament_index/resource_index/parent_prefix_path/record_traj
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/ament_prefix_path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/ament_prefix_path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/path.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/environment/path.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/local_setup.bash
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/local_setup.sh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/local_setup.zsh
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/local_setup.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.dsv
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/ament_index/resource_index/packages/record_traj
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/cmake/record_trajConfig.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/cmake/record_trajConfig-version.cmake
+-- Installing: /home/gabriel/software/AutonomousDriving/install/record_traj/share/record_traj/package.xml
