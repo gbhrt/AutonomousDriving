@@ -3,6 +3,7 @@
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/sim_load.launch.py
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/drive_vehicle.launch.py
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/launch/record_trajectory.launch.py
+/home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/param/trajectories/trajectory_test_1.txt
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/ament_index/resource_index/package_run_dependencies/kia_test
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/ament_index/resource_index/parent_prefix_path/kia_test
 /home/gabriel/software/AutonomousDriving/install/kia_test/share/kia_test/environment/ament_prefix_path.sh

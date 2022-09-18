@@ -1,7 +1,0 @@
-[01m[K/home/gabriel/software/AutonomousDriving/src/record_traj/src/record_traj_node.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kautoware_auto_tf2/tf2_autoware_auto_msgs.hpp: No such file or directory
-   22 | #include [01;31m[K<autoware_auto_tf2/tf2_autoware_auto_msgs.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/record_traj.dir/build.make:63: CMakeFiles/record_traj.dir/src/record_traj_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/record_traj.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
