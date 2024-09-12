@@ -3,7 +3,7 @@ A minimal implementation for testing basic autonomous driving functionality of a
 It includes drivers for the GNSS+IMU system (Applanix) and the drive-by-wire system (Idan).
 Additionally, it can be tested using a simple standalone Python simulator.
 
-###Run
+### Run
 
 Simulation mode - launch simple simulator:
 ```bash
