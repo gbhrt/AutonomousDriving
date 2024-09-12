@@ -1,1 +1,0 @@
-enemy car moves 2 lanes to the left.

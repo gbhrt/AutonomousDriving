@@ -1,3 +1,0 @@
-source;share/minimal_simulator/environment/ament_prefix_path.sh
-source;share/minimal_simulator/environment/path.sh
-source;share/minimal_simulator/environment/pythonpath.sh
